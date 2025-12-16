@@ -1,0 +1,14 @@
+.youngs {
+    padding-top: 120px;
+    padding-bottom: 143px;
+}
+
+.youngs__header {
+    margin-bottom: 100px;
+}
+
+.youngs__cards {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}

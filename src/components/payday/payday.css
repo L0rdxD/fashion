@@ -1,0 +1,91 @@
+.payday {
+	margin-bottom: 63px;
+}
+
+.payday__content {
+	display: flex;
+	
+	background: linear-gradient(
+#F9DF56 0%,
+#FAE157 7%,
+#F9DF56 14%,
+#F9DD55 21%,
+#F7DB53 26%,
+#F6DA52 33%,
+#F4D84F 37%,
+#F0D44C 43%,
+#EDCE49 50%,
+#E9CA48 57%,
+#E3C743 63%,
+#E4C844 63%,
+#E6C945 69%,
+#E5C643 76%,
+#E7C845 80%,
+#E6C744 84%,
+#E4C542 87%,
+#E3C743 90%,
+#E1C441 93%,
+#DFC23E 96%,
+#E0C340 100%
+  );
+}
+.payday__text{
+    padding-top: 160px;
+    padding-right: 100px; 
+}
+.payday__title {
+	max-width: 480px;
+	margin-bottom: 40px;
+	font-weight: 900;
+	font-size: 96px;
+	line-height: 1.25;
+}
+
+.payday__desc {
+	margin-bottom: 32px;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: calc(48 / 32);
+	letter-spacing: -0.05em;
+}
+
+.payday__btn-wrapper {
+	display: flex;
+	column-gap: 34px;
+	align-items: center;
+}
+
+.payday__btn {
+	padding: 18px 40px;
+
+	background: #000000;
+	border-radius: 10px;
+
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1.5;
+	letter-spacing: -0.05em;
+	color: #fff;
+}
+
+.highlight1 {
+	position: relative;
+	display: inline-block;
+}
+
+.highlight1 span {
+	position: relative;
+	z-index: 1;
+}
+
+.highlight1::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -12px;
+	bottom: 0px;
+	left: -22px;
+	right: -10px;
+	background-color: #fff;
+	transform: rotate(-2deg);
+}

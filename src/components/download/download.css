@@ -1,0 +1,45 @@
+.download {
+	margin-bottom: 100px;
+}
+
+.download__content {
+	display: flex;
+	
+	padding-left: 130px;
+}
+.download__text{
+    padding-top: 226px;
+    padding-right: 201px;
+}
+.download__title {
+     max-width: 507px;
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+.download__desc {
+	margin-bottom: 65px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 1,46;
+	letter-spacing: -0.04em;
+    color: #7c7c7c;
+}
+.download__img{
+    padding-left: 86px;
+}
+.download__btn-wrapper {
+	display: flex;
+	column-gap: 34px;
+	align-items: center;
+}
+
+.download__icons{
+	display: flex;
+	gap: 19px!important;
+}
+
+
+
