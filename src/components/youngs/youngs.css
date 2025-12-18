@@ -11,4 +11,28 @@
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+    .youngs {
+        padding: 80px 0 100px;
+    }
+
+    .youngs__header {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .youngs__cards {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .youngs__cards {
+        flex-direction: column;
+        align-items: center;
+    }
 }

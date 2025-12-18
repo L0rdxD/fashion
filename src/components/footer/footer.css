@@ -3,14 +3,20 @@
 }
 .footer__text{
     display: flex;
+    /* gap: 40px; */
+    margin-left: 60px;
 }
 .footer__social, .footer__content{
     margin-top: 119px; 
-    margin-bottom: 147px;  
+    margin-bottom: 147px;
 }
-.footer__content{
-    margin-left: 455px;    
+.footer__social {
+     margin-right:350px;   
 }
+  
+/* .footer__content{
+    margin-left:350px;    
+} */
 .p_footer_h{
     font-weight: 900;
     font-size: 40px;
@@ -36,7 +42,104 @@
 .footer__social .p_footer {
      margin-top: 32px;
 }
-.p_footer_white{
+.p_footer_width{
     width: 270px;
-    color: #D9D9D9;
+   color: #EAEAEA;
+}
+.p_footer a {
+    color: #8E8E8E!important;
+}
+@media (max-width: 1600px){
+    .footer__social {
+    margin-right: 249px;
+}
+    .footer__content{
+        margin-left: 0;
+    }
+    .p_footer_width{
+      width: 270px;
+    }
+    
+}
+@media (max-width: 1500px){
+        .p_footer_width {
+        width: 185px;
+    }
+}
+@media (max-width: 1400px){
+        .p_footer_width {
+        width: 185px;
+    }
+}
+@media (max-width: 1300px){
+        .footer__social {
+        margin-right: 163px;
+    }
+}
+@media (max-width: 1200px) {
+        .footer__social {
+        margin-right: 57px;
+    }
+    .footer__social{
+         margin-right: 30px;   
+    }
+    .footer__text {
+        flex-wrap: wrap;
+        margin-left: 0;
+        justify-content: space-between;
+    }
+
+    .footer__content {
+        margin-left: 0;
+    }
+    .p_footer_width{
+     width: 102px;
+}
+}
+@media (max-width: 947px){
+      .p_footer_width {
+        width: 325px;
+    }
+    .footer__social, .footer__content {
+    margin-top: 41px;;
+     margin-bottom: 0; 
+}  
+}
+@media (max-width: 768px) {
+    .footer__text {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__social,
+    .footer__content {
+        margin: 33px 0 0;
+    }
+
+    .footer__icons {
+        justify-content: center;
+    }
+    .p_footer_width{
+    width: 270px;
+}
+}
+
+@media (max-width: 480px) {
+    .p_footer_h {
+        font-size: 32px;
+    }
+
+    .p_footer {
+        font-size: 18px;
+    }
+    .footer__social, .footer__content {
+        margin: 33px 0 0;
+    }
+    .footer__text {
+        flex-wrap: nowrap;
+    }
+        .p_footer_width {
+     width: 400px;
+}
 }

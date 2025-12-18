@@ -13,7 +13,7 @@ const  Footer = () => {
 								<span >FASHION</span>				
 						</div>
 						<div className="p_footer">
-							<span >Complete your style with awesome<br></br> clothes from us.</span>
+							<span >Complete your style with<br></br> awesome clothes from us.</span>
 						</div>
                         <div className="footer__icons">
 							<a href='#'>
@@ -34,31 +34,40 @@ const  Footer = () => {
 					<div className="footer__text">
                         <div className="footer_column">
                             <ul className="p_footer">
-                                 <li className='p_footer_white'><a href='#'>Company</a></li>
+                                 <li className='p_footer_width'>Company</li>
                                 <li><a href='#'>About</a></li>
                                 <li><a href='#'>Contact us</a></li>
                                 <li><a href='#'>Support</a></li>
                                 <li><a href='#'>Careers</a></li>
                             </ul>
 						</div>
+						</div>
+						</div>
+						<div className="footer__content">
+						<div className="footer__text">
                     <div className="footer_column">
                             <ul className="p_footer">
-                                 <li className='p_footer_white'><a href='#'>Quick Link</a></li>
+                                 <li className='p_footer_width'>Quick Link</li>
                                 <li><a href='#'>Share Location</a></li>
                                 <li><a href='#'>Orders Tracking</a></li>
                                 <li><a href='#'>Size Guide</a></li>
                                 <li><a href='#'>FAQs</a></li>
                             </ul>
 						</div>
+						</div>
+						</div>
+						<div className="footer__content">
+						<div className="footer__text">
                         <div className="footer_column">
                             <ul className="p_footer">
-                                 <li className='p_footer_white'><a href='#'>Legal</a></li>
+                                 <li className='p_footer_width'>Legal</li>
                                 <li><a href='#'>Terms & conditions</a></li>
                                 <li><a href='#'>Privacy Policy</a></li>
                             </ul>
 						</div>
-					</div>	
-				</div>
+						</div>
+						</div>
+				
                 </div>
 			</div>
 		</section>);

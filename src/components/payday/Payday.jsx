@@ -9,7 +9,7 @@ const Payday = () => {
 					</div>
 					<div className="payday__text">
 						<div className="payday__title">
-							<span class="highlight1">
+							<span className="highlight1">
 								<span>PAYDAY</span>
 							</span>
 								<span>UNIQUE</span>

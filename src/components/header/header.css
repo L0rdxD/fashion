@@ -51,3 +51,157 @@
 	letter-spacing: -0.03em;
     color: #fff;
 }
+
+@media (max-width: 1200px) {
+	.header {
+		padding: 36px 0 46px;
+	}
+
+	.header__nav ul {
+		column-gap: 40px;
+	}
+
+	.header__nav a {
+		font-size: 20px;
+	}
+}
+.header__burger {
+	display: none;
+	position: relative;
+	width: 44px;
+	height: 32px;
+	border-radius: 4px;
+	border: 1px solid transparent;
+}
+
+.header__burger span {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 3px;
+	border-radius: 2px;
+	background-color: #000;
+	transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.header__burger span:nth-child(1) {
+	top: 6px;
+}
+
+.header__burger span:nth-child(2) {
+	top: 14px;
+}
+
+.header__burger span:nth-child(3) {
+	top: 22px;
+}
+
+.header__burger--active span:nth-child(1) {
+	transform: translateY(8px) rotate(45deg);
+}
+
+.header__burger--active span:nth-child(2) {
+	opacity: 0;
+}
+
+.header__burger--active span:nth-child(3) {
+	transform: translateY(-8px) rotate(-45deg);
+}
+
+@media (max-width: 992px) {
+	.header__burger {
+		display: block;
+	}
+
+	.header__row {
+		width: 100%;
+		align-items: flex-start;
+		row-gap: 16px;
+	}
+
+	.header__nav {
+		width: 40%;
+		margin-top: 0;
+		padding: 24px 24px 32px;
+		border-radius: 16px;
+		background-color: #fff;
+		box-shadow: 0 20px 30px rgba(0, 0, 0, 0.08);
+		display: none;
+	}
+
+	.header__nav--open {
+		display: block;
+	}
+
+	.header__nav ul {
+		width: 100%;
+		flex-direction: column;
+		row-gap: 12px;
+	}
+
+	.header__nav a {
+		display: block;
+		width: 100%;
+		padding: 8px 0;
+	}
+}
+@media (max-width: 1200px){
+.header__nav ul {
+	column-gap: 28px;
+	
+}
+}
+@media (max-width: 768px) {
+	.header__row {
+		flex-direction: column;
+		align-items: anchor-center;
+		row-gap: 24px;
+	}
+	.header__nav {
+		width: 100%;
+		text-align: center;
+	}
+	.header__logo span {
+		font-size: 32px;
+	}
+
+	.header__nav ul {
+		width: 100%;
+		flex-direction: column;
+		align-items: stretch;
+		row-gap: 12px;
+	}
+
+	.header__nav a {
+		display: block;
+		width: 100%;
+		padding: 8px 0;
+		font-size: 18px;
+	}
+
+	.header__nav-btn,
+	a.header__nav-btn {
+		text-align: center;
+		padding: 14px 18px;
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 480px) {
+	.header {
+		padding: 28px 0 32px;
+	}
+
+	.header__logo span {
+		font-size: 26px;
+	}
+
+	.header__nav a {
+		font-size: 16px;
+	}
+
+	.header__nav-btn,
+	a.header__nav-btn {
+		font-size: 18px;
+	}
+}

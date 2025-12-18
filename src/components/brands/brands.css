@@ -9,3 +9,34 @@
     column-gap: 120px;
     mix-blend-mode: multiply;
 }
+
+@media (max-width: 1200px) {
+    .brands__list {
+        column-gap: 80px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .brands {
+        padding: 40px 0;
+    }
+
+    .brands__list {
+        justify-content: center;
+        column-gap: 40px;
+        row-gap: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .brands__list {
+        column-gap: 24px;
+    }
+
+    .brands__list img {
+        max-width: 120px;
+    }
+}
