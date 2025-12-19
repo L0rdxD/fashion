@@ -40,7 +40,7 @@ function PrivacyPolicy() {
   <p>If you have questions or comments about this Privacy Policy, please contact us at:<br/>
 <strong>FASHION E-commerce</strong>
 <br/>123 Fashion Ave, Style City, 10001<br/>
-<a className="text-primary hover:underline" href="mailto:privacy@fashion.com">privacy@fashion.com</a>
+<a className="text-primary hover:underline" href="mailto: support@fashion.com"> support@fashion.com</a>
 </p>
 </div> 
     </div>

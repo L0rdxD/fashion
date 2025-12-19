@@ -1,19 +1,24 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import useScrollToTop from './hooks/useScrollToTop';
 import Arrivals from './components/arrivals/Arrivals';
 import Brands from './components/brands/Brands';
 import Header from './components/header/Header'
 import Promo from './components/promo/Promo';
 import Payday from './components/payday/Payday';
 import Youngs from './components/youngs/Youngs';
-import Downloade from './components/download/Download';
+import Download from './components/download/Download';
 import Join from './components/join/Join';
 import Footer from './components/footer/Footer';
-import PrivacyPolicy from './components/privacy-policy/privacy-policy';
+import PrivacyPolicy from './components/privacy-policy/PrivacyPolicy';
+import TermsAndConditions from './components/terms-and-conditions/TermsAndConditions';
 
 function App() {
 
+  function ScrollHookWrapper() { useScrollToTop(); return null }
+
   return (
-		 <Router>
+    	<Router>
+      <ScrollHookWrapper />
       <Routes>
         <Route path="/" element={
           <div className="App">
@@ -23,12 +28,17 @@ function App() {
             <Arrivals />
             <Payday />
             <Youngs />
-            <Downloade />
+            <Download />
             <Join />
             <Footer />
           </div>
         } />
-        <Route path="/privacy" element={
+        <Route path="/terms-and-conditions" element={
+          <><Header />
+          <TermsAndConditions />
+          <Footer /></>
+        } />
+        <Route path="/privacy-policy" element={
           <><Header />
           <PrivacyPolicy />
           <Footer /></>

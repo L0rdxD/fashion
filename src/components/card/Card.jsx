@@ -6,6 +6,7 @@ const Card = ({title, img}) => {
 
     return (
 		<div className={styles.card}>
+
 			<a href="#!" className={styles.card__link}></a>
 			<img
 				className={styles.card__img}

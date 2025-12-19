@@ -17,18 +17,10 @@ const  Footer = () => {
 							<span >Complete your style with<br></br> awesome clothes from us.</span>
 						</div>
                         <div className="footer__icons">
-							<a href='#'>
-							<img src={fbImg} alt=''></img>
-							</a>
-							<a href='#'>
-							<img src={instImg} alt=''></img>
-							</a>
-                            <a href='#'>
-							<img src={twImg} alt=''></img>
-							</a>
-                            <a href='#'>
-							<img src={inImg} alt=''></img>
-							</a>
+							<Link to="/"><img src={fbImg} alt=''></img></Link>
+							<Link to="/"><img src={instImg} alt=''></img></Link>		
+                            <Link to="/"><img src={twImg} alt=''></img></Link>
+							<Link to="/"><img src={inImg} alt=''></img></Link>
 						</div>	
 					</div>	
                 <div className="footer__content">
@@ -36,10 +28,10 @@ const  Footer = () => {
                         <div className="footer_column">
                             <ul className="p_footer">
                                  <li className='p_footer_width'>Company</li>
-                                <li><a href='#'>About</a></li>
-                                <li><a href='#'>Contact us</a></li>
-                                <li><a href='#'>Support</a></li>
-                                <li><a href='#'>Careers</a></li>
+                                <li><Link to="/">About</Link></li>
+                                <li><Link to="/">Contact us</Link></li>
+                                <li><Link to="/">Support</Link></li>
+                                <li><Link to="/">Careers</Link></li>
                             </ul>
 						</div>
 						</div>
@@ -49,10 +41,10 @@ const  Footer = () => {
                     <div className="footer_column">
                             <ul className="p_footer">
                                  <li className='p_footer_width'>Quick Link</li>
-                                <li><a href='#'>Share Location</a></li>
-                                <li><a href='#'>Orders Tracking</a></li>
-                                <li><a href='#'>Size Guide</a></li>
-                                <li><a href='#'>FAQs</a></li>
+                                <li><Link to="/">Share Location</Link></li>
+                                <li><Link to="/">Orders Tracking</Link></li>
+                                <li><Link to="/">Size Guide</Link></li>
+                                <li><Link to="/">FAQs</Link></li>
                             </ul>
 						</div>
 						</div>
@@ -62,8 +54,8 @@ const  Footer = () => {
                         <div className="footer_column">
                             <ul className="p_footer">
                                  <li className='p_footer_width'>Legal</li>
-                                <li><a href='#'>Terms & conditions</a></li>
-                                <li><Link to="/privacy">Privacy Policy</Link></li>
+                                <li><Link to="/terms-and-conditions">Terms & conditions</Link></li>
+                                <li><Link to="/privacy-policy">Privacy Policy</Link></li>
                             </ul>
 						</div>
 						</div>

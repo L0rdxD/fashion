@@ -1,0 +1,129 @@
+.highlight--yellow::before {
+    right: -41px;
+    background-color: #EBD96B;
+}
+.privacy {
+    display: flex;
+    justify-content: center;
+     margin-bottom: 40px;
+     margin-top: 64px;
+}
+
+.privacy__title{
+    text-align: center;
+    max-width: 480px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.25;   
+}
+.privacy__updaite{
+    text-align: center;
+   font-weight: 400;
+    font-size: 20px;
+    line-height: 178%;
+    padding-bottom: 24px;
+    color: #7c7c7c; 
+}
+.privacy__text{
+    justify-content: center;
+    width: 100%;
+    max-width: 1168px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+}
+.privacy__text h2{
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+color: #000;
+}
+.privacy__text ul{
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+padding-top: 24px;
+padding-bottom: 24px;
+color: #7c7c7c;
+}
+.privacy__text p{
+font-weight: 400;
+font-size: 24px;
+line-height: 178%;
+padding-top: 16px;
+padding-bottom: 24px;
+color: #7c7c7c;
+}
+
+.privacy-policy ul li {
+  list-style: disc;
+  margin-left: 20px;
+  padding-bottom: 12px;
+}
+
+
+.privacy-policy a{
+    color: #E5C643;
+}
+.privacy__text strong{
+color: #000;
+}
+
+/* Мобильные стили */
+@media (max-width: 768px) {
+  .privacy {
+    margin-bottom: 24px;
+    margin-top: 40px;
+  }
+
+  .privacy__title {
+    max-width: 100%;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+  }
+
+  .privacy__updaite {
+    font-size: 16px;
+    line-height: 150%;
+    padding-bottom: 16px;
+  }
+
+  .privacy__text {
+    max-width: 100%;
+    padding: 0 16px;
+    padding-bottom: 20px;
+  }
+
+  .privacy__text h2 {
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 12px;
+  }
+
+  .privacy__text ul {
+    font-size: 16px;
+    line-height: 140%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .privacy__text p {
+    font-size: 16px;
+    line-height: 160%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .privacy-policy ul {
+    list-style: none;
+    padding-left: 24px;
+  }
+
+  .privacy-policy ul li {
+    position: relative;
+    margin-left: 0;
+    padding-bottom: 8px;
+  }
+
+}
