@@ -1,4 +1,5 @@
-import './footer.css'
+import { Link } from 'react-router-dom';
+import './footer.css';
 import fbImg from './../../img/socials/fb.svg';
 import instImg from './../../img/socials/inst.svg';
 import twImg from './../../img/socials/tw.svg';
@@ -62,7 +63,7 @@ const  Footer = () => {
                             <ul className="p_footer">
                                  <li className='p_footer_width'>Legal</li>
                                 <li><a href='#'>Terms & conditions</a></li>
-                                <li><a href='#'>Privacy Policy</a></li>
+                                <li><Link to="/privacy">Privacy Policy</Link></li>
                             </ul>
 						</div>
 						</div>

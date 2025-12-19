@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logoImg from './../../img/icons/logo.svg';
 import './header.css';
 
@@ -12,12 +13,15 @@ function Header() {
 		<header className="header">
 			<div className="container">
 				<div className="header__row">
-					<div className="header__logo">
-						<img src={logoImg} alt="Logo" />
+				<div className="header__logo">
+					<Link to="/">
+					<img src={logoImg} alt="Logo" />
+					</Link>
+					<Link to="/">
 						<span>Fashion</span>
-					</div>
-
-					<nav className={`header__nav ${isMenuOpen ? 'header__nav--open' : ''}`}>
+					</Link>
+				</div>					
+				<nav className={`header__nav ${isMenuOpen ? 'header__nav--open' : ''}`}>
 						<ul>
 							<li>
 								<a href="#!" onClick={closeMenu}>
